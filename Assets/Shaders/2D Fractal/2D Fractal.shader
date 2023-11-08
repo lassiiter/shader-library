@@ -70,13 +70,11 @@ Shader "Unlit/2D Fractal"
                     uv = frac(uv);
                     uv -= .5;
 
-                    float d = sdBox(uv,float2(.1,.1));
-                    float e = sdHeart(uv);
-
-                    d = d * exp(-sdBox(uv,float2(.5,.5)));
                     float3 col = palette(sdBox(uv,float2(.5,.5)) +  _Time.y *.4 + i*.4);
                     float3 col2 = palette(sdBox(uv0,float2(.5,.5)) +  _Time.y *.1 + i*.1);
 
+                    float d = sdBox(uv,float2(.1,.1));
+                    d = d * exp(-sdBox(uv,float2(.5,.5)));
                     d = sin(d*5 + _Time.y + i*.8)/5;
                     d = abs(d);
                     d = pow((.02+i*.01)/d,1.1);
