@@ -5,4 +5,4 @@
 
 ## SubShaders
    1. [Signed Distance Fields](https://github.com/lassiiter/shader-library/tree/main/Assets/SubShaders/SDFs)
-   2. [Trig Color Pallette](https://github.com/lassiiter/shader-library/tree/main/Assets/SubShaders/SDFs)
+   2. [Trig Color Pallette](https://github.com/lassiiter/shader-library/tree/main/Assets/SubShaders/Color%20Palette)
