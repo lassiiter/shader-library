@@ -1,6 +1,6 @@
 # 2D SDF Fractal 
 
-Included is a code and shadergraph implementation
+Included is a code and shadergraph implementation  
 
 
 
@@ -12,5 +12,5 @@ Included is a code and shadergraph implementation
   
 </p>
 <p align="center">
-  <img width="500" height="500" src="https://github.com/lassiiter/shader-library/assets/50963416/de80bfde-a705-4aa5-8956-7e1f0fa58262">
+  <img width="800" height="800" src="https://github.com/lassiiter/shader-library/assets/50963416/de80bfde-a705-4aa5-8956-7e1f0fa58262">
 </p>
