@@ -5,7 +5,7 @@ Included is a code and shadergraph implementation
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/lassiiter/Shaders/assets/50963416/61107645-a946-4571-afed-081660f49a5e">
+  <img width="500" height="500" src="https://github.com/lassiiter/Shaders/assets/50963416/61107645-a946-4571-afed-081660f49a5e">
 </p>
 
 ![2d fractal](https://github.com/lassiiter/Shaders/assets/50963416/61107645-a946-4571-afed-081660f49a5e)
