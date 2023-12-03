@@ -9,7 +9,7 @@ Shader "Hidden/EdgeDetectionShader"
     SubShader
     {
         // No culling or depth
-        Cull Off ZWrite Off ZTest Always
+        Cull Off ZWrite On ZTest Always
  
         Pass
         {
@@ -72,7 +72,10 @@ Shader "Hidden/EdgeDetectionShader"
                     sampledValue += GetPixelValue(i.uv + offsets[j] * _MainTex_TexelSize.xy);
                 }
                 sampledValue /= 8;
-                 
+                
+                float depth;
+                float3 normal;
+              
                 return lerp(col, _EdgeColor, step(_Threshold, length(orValue - sampledValue)));
             }
             ENDCG

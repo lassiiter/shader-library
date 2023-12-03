@@ -5,7 +5,11 @@ using System.Collections.Generic;
 public class EdgeDetectionCamera : MonoBehaviour {
  
     public Material material;
- 
+    void OnEnable()
+    {
+        Camera.main.depthTextureMode = DepthTextureMode.DepthNormals;
+    }
+
     void OnRenderImage(RenderTexture src, RenderTexture dest) {
         Graphics.Blit(src, dest, material);
     }
