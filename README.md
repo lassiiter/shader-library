@@ -4,6 +4,7 @@
 
 | Link  | Media |
 | ------------- | ------------- |
+| [Edge Detection Shader](https://github.com/lassiiter/shader-library/tree/main/Assets/Shaders/2D%20Fractal)  | <img width="400" height="400" src="[https://github.com/lassiiter/Shaders/assets/50963416/61107645-a946-4571-afed-081660f49a5e](https://github.com/lassiiter/shader-library/assets/50963416/f69a3a49-5803-4bcf-a48a-45a630a2a906)"> |
 | [2D SDF Fractals](https://github.com/lassiiter/shader-library/tree/main/Assets/Shaders/2D%20Fractal)  | <img width="400" height="400" src="https://github.com/lassiiter/Shaders/assets/50963416/61107645-a946-4571-afed-081660f49a5e"> |  
 | [Stencil Buffer Non-Euclidean Space](https://github.com/lassiiter/shader-library/tree/main/Assets/Shaders/2D%20Fractal)  | <img width="400" height="400" src="https://github.com/lassiiter/shader-library/assets/50963416/8f07e79b-3858-4b8a-aac1-1c70de558e27"> |  
 
