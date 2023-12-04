@@ -75,8 +75,11 @@ Shader "Hidden/EdgeDetectionShader"
                 
                 float depth;
                 float3 normal;
-              
-                return lerp(col, _EdgeColor, step(_Threshold, length(orValue - sampledValue)));
+
+                //attempt to smooth
+                // float4 mask = length(orValue - sampledValue);
+                // mask = smoothstep(.1,1,length(orValue - sampledValue));
+                return lerp(col, _EdgeColor, step(_Threshold, length(sampledValue-orValue)));
             }
             ENDCG
         }
