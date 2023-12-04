@@ -1,3 +1,5 @@
+Simply a nice place to arhive all my fun shader explorations
+
 # Table of Contents
 
 ## Shaders
